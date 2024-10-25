@@ -1,10 +1,10 @@
 ---
 baseURL: https://piko-heksagon.netlify.app/
 languageCode: en-us
-title: Piko
+title: Andarduft - Explore Andarduft Content
 theme: piko
 paginate: "9"
-copyright: A template by [Heksagon](https://www.heksagon.net "Your most friendly developer")
+copyright: A template by [Heksagon](https://www.heksagon.net)
 googleAnalytics: # Enter Google Analytics ie. UA-012345678-9
 enableRobotsTXT: true
 buildDrafts: false
@@ -38,26 +38,24 @@ params:
       SiteVerificationTag: # Bing Site Verification
   env: production
   author: andarduft
-  description: andarduft
+  description: "Explore insights and resources on andarduft. Your go-to source for everything related to andarduft."
   math: false
   images:
     - "/uploads/og.webp"
   label:
-    title: _Andarduft_
-    text: Welcome to andarduft
+    title: _Andarduft - Discover More_
+    text: "Welcome to the world of andarduft"
     lightNavIcon: /uploads/sun.svg
     darkNavIcon: /uploads/zap.svg
     iconHeight: "35"
-    iconWIdth: "35"
+    iconWidth: "35"
   comments: true
   mainSections:
     - blog
   ShowShareButtons: true
   ShowCodeCopyButtons: true
   ShowRelated: true
-  CookieNotice:
-    We use cookies to improve your experience on our site and to show
-    you relevant advertising.
+  CookieNotice: "We use cookies to improve your experience on our andarduft site and to show you relevant advertising."
   CookieLink: /legal/privacy/#cookies-and-web-beacons
   CookieButton: Cookies Policy
   disableAnchoredHeadings: false
@@ -72,52 +70,47 @@ params:
   ShowReadingTime: true
   ShowBreadCrumbs: true
   homepage:
-    # Hero Section
     disableHeroSection: false
-    heroUpperTitle:
-    heroTitle: Piko
-    heroDescription: Salut la compagnie
-    heroCTAPrimaryText: Blog
+    heroUpperTitle: Discover Andarduft
+    heroTitle: "Welcome to Andarduft Insights"
+    heroDescription: "Uncover valuable information and guides on andarduft."
+    heroCTAPrimaryText: Explore Blog
     heroCTAPrimaryUrl: "/blog/"
-    heroCTASecondaryText: Contact Me
+    heroCTASecondaryText: Get in Touch
     heroCTASecondaryUrl: "/contact/"
-    heroBackgroundImage: "/uploads/portfolio-1.webp"
-    # Blog Section
+    heroBackgroundImage: "/uploads/andarduft-background.webp"
     disableBlogSection: false
-    blogTitle: Latest Posts
-    blogDescription: This is my latest blog posts
-    seeMoreText: More Posts
-    # About Section
+    blogTitle: Andarduft Articles
+    blogDescription: "Read the latest articles on andarduft and related topics."
+    seeMoreText: See All Articles
     disableAboutSection: false
-    aboutTitle: About
-    aboutDescription: Just something about me
+    aboutTitle: About Andarduft
+    aboutDescription: "Learn more about andarduft and our mission to provide the best resources."
     aboutImgUrl: "/uploads/self.webp"
-    aboutContent: Hi guys. This is where you put something about yourself.
-    # Portfolio Section
+    aboutContent: "Welcome to the andarduft site. Here, you’ll find curated articles and insights on all things andarduft."
     disablePortfolioSection: false
-    portfolioTitle: Portfolio
-    portfolioDescription: Some of my works
+    portfolioTitle: Andarduft Resources
+    portfolioDescription: "Explore a range of resources dedicated to andarduft."
     portfolio:
       - imageUrl: /uploads/portfolio-1.webp
-        alt: # image alt for better SEO
-        description: Portfolio One.
+        alt: "Andarduft Resource 1"
+        description: "Resource One on andarduft."
         websiteUrl: #
       - imageUrl: /uploads/portfolio-2.webp
-        alt: # image alt for better SEO
-        description: Portfolio Two.
+        alt: "Andarduft Resource 2"
+        description: "Resource Two on andarduft."
         websiteUrl: #
       - imageUrl: /uploads/portfolio-3.webp
-        alt: # image alt for better SEO
-        description: Portfolio Three.
+        alt: "Andarduft Resource 3"
+        description: "Resource Three on andarduft."
         websiteUrl: #
-  # Search Options (https://fusejs.io/)
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
     location: "0"
-    distance: "1000"
-    threshold: "0.4"
-    minMatchCharLength: "0"
+    distance: "100"
+    threshold: "0.3"
+    minMatchCharLength: "3"
     keys:
       - title
       - permalink
@@ -129,18 +122,18 @@ params:
     js:
       - link: plugins/js/feather.min.js
 menus:
-  main: # Main Menu
-    - name: Blog
+  main:
+    - name: Andarduft Blog
       title: Blog
       pre: pen-tool
       url: "/blog"
       weight: "20"
-    - name: Search
+    - name: Search Andarduft
       title: Search
       pre: search
       url: "/search"
       weight: "30"
-    - name: Contact
+    - name: Contact Us
       title: Contact
       pre: mail
       url: "/contact"
@@ -150,8 +143,8 @@ menus:
       pre: github
       url: https://github.com/heksagonnet/piko
       weight: "50"
-  search: # Search page's quick links
-    - name: Categories
+  search:
+    - name: Andarduft Categories
       title: Categories
       url: "/categories"
       weight: "10"
