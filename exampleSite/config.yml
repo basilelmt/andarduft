@@ -93,21 +93,21 @@ params:
     portfolioDescription: "Explore a range of resources dedicated to andarduft."
     portfolio:
       - imageUrl: /uploads/plant1.avif
-        alt: # image alt for better SEO
+        alt: Andarduft leaves # image alt for better SEO
         description: Andarduft leaves.
-        websiteUrl: #
+        websiteUrl: https://leavesandclouds.fr/
       - imageUrl: /uploads/Forest.webp
-        alt: # image alt for better SEO
+        alt: Andarduft forest. # image alt for better SEO
         description: Andarduft forest.
-        websiteUrl: #
-      - imageUrl: /uploads/powder.webp
-        alt: # image alt for better SEO
+        websiteUrl: https://forestapp.cc/ #
+      - imageUrl: /uploads/powder.jpg
+        alt: Andarduft powder. # image alt for better SEO
         description: Andarduft powder.
-        websiteUrl: #
+        websiteUrl: https://sniffyfrance.fr/ #
       - imageUrl: /uploads/plant3.avif
-        alt: # image alt for better SEO
+        alt: Andarduft stem. # image alt for better SEO
         description: Andarduft stem.
-        websiteUrl: #
+        websiteUrl: https://stemgroupe.fr/ #
   # Search Options (https://fusejs.io/)
   fuseOpts:
     isCaseSensitive: false
