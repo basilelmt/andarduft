@@ -1,7 +1,6 @@
 ---
-title: 'Contact Me' # in any language you want
-# url: "/archive"
-description: 'How can I help you?'
+title: "Contact Andarduft"
+description: "How can I assist you with andarduft-related inquiries?"
 disableShare: true
 layout: contact
 ShowReadingTime: false

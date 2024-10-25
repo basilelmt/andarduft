@@ -1,8 +1,6 @@
 ---
-title: "Search" # in any language you want
-layout: "search" # is necessary
-# url: "/archive"
-# description: "Description for Search"
-summary: "search"
+title: "Search Andarduft"
+layout: "search"
+description: "Find andarduft articles, guides, and resources."
+summary: "Search for content related to andarduft."
 ---
-
