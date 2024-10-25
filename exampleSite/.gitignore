@@ -1,2 +1,6 @@
 ./themes/piko
 piko
+./public
+public/
+/public/
+exampleSite/public
