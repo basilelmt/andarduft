@@ -1,6 +1,6 @@
 ---
 title: Blog
 image: "/uploads/Forest.webp"
-description: My blog's description here
+description: Here discover our wonderful posts on super products
 
 ---
