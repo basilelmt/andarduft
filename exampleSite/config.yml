@@ -78,7 +78,7 @@ params:
     heroCTAPrimaryUrl: "/blog/"
     heroCTASecondaryText: Get in Touch
     heroCTASecondaryUrl: "/contact/"
-    heroBackgroundImage: "/uploads/andarduft-background.webp"
+    heroBackgroundImage: "/uploads/Forest.webp"
     disableBlogSection: false
     blogTitle: Andarduft Articles
     blogDescription: "Read the latest articles on andarduft and related topics."
@@ -86,8 +86,8 @@ params:
     disableAboutSection: false
     aboutTitle: About Andarduft
     aboutDescription: "Learn more about andarduft and our mission to provide the best resources."
-    aboutImgUrl: "/uploads/self.webp"
-    aboutContent: "Welcome to the andarduft site. Here, you’ll find curated articles and insights on all things andarduft."
+    aboutImgUrl: "/uploads/white-powder.avif"
+    aboutContent: "Welcome to the world of andarduft, where nature meets wellness! Our mission is to provide you with a premium health supplement derived from a unique and rare plant, known for its remarkable properties that enhance both mental clarity and physical performance."
     disablePortfolioSection: false
     portfolioTitle: Andarduft Resources
     portfolioDescription: "Explore a range of resources dedicated to andarduft."
