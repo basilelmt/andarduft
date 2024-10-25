@@ -124,6 +124,7 @@ params:
   plugins:
     css:
       - link: plugins/css/pico.min.css
+      - link: css/custom.css
     js:
       - link: plugins/js/feather.min.js
 menus:
