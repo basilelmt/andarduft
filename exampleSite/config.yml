@@ -13,9 +13,9 @@ buildExpired: false
 enableEmoji: true
 outputs:
   home:
-  - HTML
-  - RSS
-  - JSON
+    - HTML
+    - RSS
+    - JSON
 minify:
   disableCSS: false
   disableHTML: false
@@ -37,25 +37,26 @@ params:
     bing:
       SiteVerificationTag: # Bing Site Verification
   env: production
-  author: Your Name
-  description: Your website description
+  author: andarduft
+  description: andarduft
   math: false
   images:
-  - "/uploads/og.webp"
+    - "/uploads/og.webp"
   label:
-    title: _Piko Title_
-    text: Welcome to Piko
+    title: _Andarduft_
+    text: Welcome to andarduft
     lightNavIcon: /uploads/sun.svg
     darkNavIcon: /uploads/zap.svg
     iconHeight: "35"
     iconWIdth: "35"
   comments: true
   mainSections:
-  - blog
+    - blog
   ShowShareButtons: true
   ShowCodeCopyButtons: true
   ShowRelated: true
-  CookieNotice: We use cookies to improve your experience on our site and to show
+  CookieNotice:
+    We use cookies to improve your experience on our site and to show
     you relevant advertising.
   CookieLink: /legal/privacy/#cookies-and-web-beacons
   CookieButton: Cookies Policy
@@ -73,9 +74,9 @@ params:
   homepage:
     # Hero Section
     disableHeroSection: false
-    heroUpperTitle: 
+    heroUpperTitle:
     heroTitle: Piko
-    heroDescription: Lightweight theme for your every need
+    heroDescription: Salut la compagnie
     heroCTAPrimaryText: Blog
     heroCTAPrimaryUrl: "/blog/"
     heroCTASecondaryText: Contact Me
@@ -86,7 +87,7 @@ params:
     blogTitle: Latest Posts
     blogDescription: This is my latest blog posts
     seeMoreText: More Posts
-    # About Section    
+    # About Section
     disableAboutSection: false
     aboutTitle: About
     aboutDescription: Just something about me
@@ -97,18 +98,18 @@ params:
     portfolioTitle: Portfolio
     portfolioDescription: Some of my works
     portfolio:
-    - imageUrl: /uploads/portfolio-1.webp
-      alt: # image alt for better SEO
-      description: Portfolio One.
-      websiteUrl: #
-    - imageUrl: /uploads/portfolio-2.webp
-      alt: # image alt for better SEO
-      description: Portfolio Two.
-      websiteUrl: #
-    - imageUrl: /uploads/portfolio-3.webp
-      alt: # image alt for better SEO
-      description: Portfolio Three.
-      websiteUrl: #
+      - imageUrl: /uploads/portfolio-1.webp
+        alt: # image alt for better SEO
+        description: Portfolio One.
+        websiteUrl: #
+      - imageUrl: /uploads/portfolio-2.webp
+        alt: # image alt for better SEO
+        description: Portfolio Two.
+        websiteUrl: #
+      - imageUrl: /uploads/portfolio-3.webp
+        alt: # image alt for better SEO
+        description: Portfolio Three.
+        websiteUrl: #
   # Search Options (https://fusejs.io/)
   fuseOpts:
     isCaseSensitive: false
@@ -118,47 +119,47 @@ params:
     threshold: "0.4"
     minMatchCharLength: "0"
     keys:
-    - title
-    - permalink
-    - summary
-    - content
+      - title
+      - permalink
+      - summary
+      - content
   plugins:
     css:
-    - link: plugins/css/pico.min.css
+      - link: plugins/css/pico.min.css
     js:
-    - link: plugins/js/feather.min.js
+      - link: plugins/js/feather.min.js
 menus:
   main: # Main Menu
-  - name: Blog
-    title: Blog
-    pre: pen-tool
-    url: "/blog"
-    weight: "20"
-  - name: Search
-    title: Search
-    pre: search
-    url: "/search"
-    weight: "30"
-  - name: Contact
-    title: Contact
-    pre: mail
-    url: "/contact"
-    weight: "40"
-  - name: Github
-    title: 
-    pre: github
-    url: https://github.com/heksagonnet/piko
-    weight: "50"
+    - name: Blog
+      title: Blog
+      pre: pen-tool
+      url: "/blog"
+      weight: "20"
+    - name: Search
+      title: Search
+      pre: search
+      url: "/search"
+      weight: "30"
+    - name: Contact
+      title: Contact
+      pre: mail
+      url: "/contact"
+      weight: "40"
+    - name: Github
+      title:
+      pre: github
+      url: https://github.com/heksagonnet/piko
+      weight: "50"
   search: # Search page's quick links
-  - name: Categories
-    title: Categories
-    url: "/categories"
-    weight: "10"
-  - name: Archives
-    title: Archives
-    url: "/archives"
-    weight: "20"
-  - name: Tags
-    title: Tags
-    url: "/tags"
-    weight: "30"
+    - name: Categories
+      title: Categories
+      url: "/categories"
+      weight: "10"
+    - name: Archives
+      title: Archives
+      url: "/archives"
+      weight: "20"
+    - name: Tags
+      title: Tags
+      url: "/tags"
+      weight: "30"
