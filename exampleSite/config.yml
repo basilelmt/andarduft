@@ -78,7 +78,7 @@ params:
     heroCTAPrimaryUrl: "/blog/"
     heroCTASecondaryText: Get in Touch
     heroCTASecondaryUrl: "/contact/"
-    heroBackgroundImage: "/uploads/Forest.webp"
+    heroBackgroundImage: "/uploads/forest.avif"
     disableBlogSection: false
     blogTitle: Andarduft Articles
     blogDescription: "Read the latest articles on andarduft and related topics."
