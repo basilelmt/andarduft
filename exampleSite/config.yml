@@ -100,6 +100,10 @@ params:
         alt: # image alt for better SEO
         description: Andarduft forest.
         websiteUrl: #
+      - imageUrl: /uploads/powder.webp
+        alt: # image alt for better SEO
+        description: Andarduft powder.
+        websiteUrl: #
       - imageUrl: /uploads/plant3.avif
         alt: # image alt for better SEO
         description: Andarduft stem.
@@ -124,6 +128,11 @@ params:
       - link: plugins/js/feather.min.js
 menus:
   main:
+    - name: Andarduft Products
+      title: Products
+      pre: dollar-sign
+      url: "/products"
+      weight: "25"
     - name: Andarduft Blog
       title: Blog
       pre: pen-tool
@@ -139,11 +148,6 @@ menus:
       pre: mail
       url: "/contact"
       weight: "40"
-    - name: Github
-      title:
-      pre: github
-      url: https://github.com/heksagonnet/piko
-      weight: "50"
   search:
     - name: Andarduft Categories
       title: Categories
