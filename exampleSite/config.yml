@@ -45,7 +45,7 @@ params:
   label:
     title: _Andarduft - Discover More_
     text: "Welcome to the world of andarduft"
-    lightNavIcon: /uploads/sun.svg
+    lightNavIcon: /uploads/zap.svg
     darkNavIcon: /uploads/zap.svg
     iconHeight: "35"
     iconWidth: "35"
